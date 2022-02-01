@@ -1,3 +1,12 @@
+Hello.
+This is a demo version of the weather app. It was created with create-react-app and has the appropriate scripts (start, build, test... ).
+- When the application starts, the user will see his current location and the weather in it.
+- The search bar is available to the user. Thanks to it, you can find out the weather anywhere in the world by entering its name or zip code.
+- The application allows you to switch between two metric systems by clicking.
+- The name of the city can be saved and by clicking on the card with the saved city, you can get current information about the weather in this place.
+- The app is fully responsive and fits most devices.
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
