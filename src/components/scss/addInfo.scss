@@ -1,0 +1,83 @@
+#add-info.add-info {
+  grid-area: add-info;
+  border-radius: 10px;
+  box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.3);
+  padding: 20px 40px;
+
+  .add-content-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.3);
+    padding: 20px 40px 20px 100px;
+    position: relative;
+    background: rgba(255, 255, 255, 0.2);
+    width: 70%; 
+    height: 100%;
+  }
+  div {
+    font-size: 22px;
+    line-height: 30px;
+    span {
+      color: #fff;
+      font-size: 24px;
+      font-family: "Montserrat-bold", sans-serif;
+    }
+    .temp{
+      position: relative;
+      &::before{
+        content: '🌡️';
+        position: absolute;
+        top: 0;
+        left: -55px;
+        font-size: 30px;
+      }
+    }
+    .clouds{
+      position: relative;
+      &::before{
+        content: '☁️';
+        position: absolute;
+        top: 0;
+        left: -55px;
+        font-size: 30px;
+      }
+    }
+    
+    .humidity{
+      position: relative;
+      &::before{
+        content: '💧';
+        position: absolute;
+        top: 0;
+        left: -55px;
+        font-size: 30px;
+      }
+    }
+    .wind{
+      position: relative;
+
+      &::before{
+        content: '💨';
+        position: absolute;
+        top: 0;
+        left: -55px;
+        font-size: 30px;
+      }
+    }
+  }
+}
+.add-info-cold {
+  background: url("../../sources/img/cold.jpg");
+  background-size: cover;
+  background-position: top right;
+  background-repeat: no-repeat;
+}
+.add-info-warm {
+  background: url("../../sources/img/warm.jpg");
+  background-size: cover;
+  background-position: top right;
+  background-repeat: no-repeat;
+}

@@ -1,0 +1,22 @@
+#personal-info.personal-info {
+  grid-area: personal-info;
+  border-radius: 10px;
+  box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.3);
+  position: relative;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  min-height: 400px;
+}
+.personal-info-warm{
+  background: url('../../sources/img/warm.jpg');
+  background-size: cover;
+  background-position: bottom;
+  background-repeat: no-repeat;
+}
+.personal-info-cold{
+  background: url('../../sources/img/cold.jpg');
+  background-size: cover;
+  background-position: bottom;
+  background-repeat: no-repeat;
+}
