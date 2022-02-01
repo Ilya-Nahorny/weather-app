@@ -4,11 +4,11 @@
   transform: translate(-50%);
   width: 100%;
   position: relative;
-  padding:  0 28px;
-  .clearStorageBtn{
+  padding: 0 28px;
+  .clearStorageBtn {
     background-color: rgba(255, 255, 255, 0.2);
     border-radius: 10px;
-    box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.3);  
+    box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.3);
     padding: 20px 40px;
     position: absolute;
     left: 0;
@@ -16,12 +16,12 @@
     width: 150px;
     height: 40px;
     display: none;
-    &:hover{
+    &:hover {
       box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0.2);
-        background-color: black;
-      }
-  }  
-  .clearStorageBtn-active{
+      background-color: black;
+    }
+  }
+  .clearStorageBtn-active {
     background-color: rgba(255, 255, 255, 0.2);
     border-radius: 6px;
     border: none;
@@ -36,33 +36,33 @@
     font-size: 15px;
     font-family: "Montserrat-bold", sans-serif;
     cursor: pointer;
-    &:hover{
-    box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0.2);
+    &:hover {
+      box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0.2);
       background-color: black;
     }
   }
-  .visiteCard{
+  .visiteCard {
     position: relative;
     top: -50%;
     height: 50%;
     min-height: 330px;
     cursor: pointer;
-    &::before{
-      content: '';
+    &::before {
+      content: "";
       position: absolute;
       width: 100px;
       height: 100px;
       display: block;
-      background-image: url('../../sources/img/icons8-double-tap-100.png');
+      background-image: url("../../sources/img/icons8-double-tap-100.png");
       background-position: center;
       background-repeat: no-repeat;
       background-size: contain;
       bottom: 0;
       left: 50%;
       transform: translate(-50%);
-      opacity: .3;
+      opacity: 0.3;
     }
-    .visiteCard_info{
+    .visiteCard_info {
       background-color: rgba(255, 255, 255, 0.2);
       border-radius: 10px;
       box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.3);
@@ -76,7 +76,7 @@
       transform: translate(-50%, -50%);
       width: 90%;
       height: 95%;
-      h2{
+      h2 {
         transform: rotate(270deg);
         font-size: 30px;
         white-space: nowrap;

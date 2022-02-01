@@ -4,7 +4,7 @@
   box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.3);
   padding: 20px 40px;
 
-  .add-content-wrapper{
+  .add-content-wrapper {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -14,7 +14,7 @@
     padding: 20px 40px 20px 100px;
     position: relative;
     background: rgba(255, 255, 255, 0.2);
-    width: 70%; 
+    width: 70%;
     height: 100%;
   }
   div {
@@ -25,42 +25,42 @@
       font-size: 24px;
       font-family: "Montserrat-bold", sans-serif;
     }
-    .temp{
+    .temp {
       position: relative;
-      &::before{
-        content: '🌡️';
+      &::before {
+        content: "🌡️";
         position: absolute;
         top: 0;
         left: -55px;
         font-size: 30px;
       }
     }
-    .clouds{
+    .clouds {
       position: relative;
-      &::before{
-        content: '☁️';
+      &::before {
+        content: "☁️";
         position: absolute;
         top: 0;
         left: -55px;
         font-size: 30px;
       }
     }
-    
-    .humidity{
+
+    .humidity {
       position: relative;
-      &::before{
-        content: '💧';
+      &::before {
+        content: "💧";
         position: absolute;
         top: 0;
         left: -55px;
         font-size: 30px;
       }
     }
-    .wind{
+    .wind {
       position: relative;
 
-      &::before{
-        content: '💨';
+      &::before {
+        content: "💨";
         position: absolute;
         top: 0;
         left: -55px;

@@ -1,11 +1,20 @@
 import React from "react";
 import FullDate from "./FullDate";
 
-export default function CurrentInfo({props, setInputCityName, fetchWeatherByCity, iconCode, unitsHandler, setLocalMemory}) {
-
-  let iconUrl = "http://openweathermap.org/img/w/" + (props.iconCode ? props.iconCode : null) + ".png";
+export default function CurrentInfo({
+  props,
+  setInputCityName,
+  fetchWeatherByCity,
+  unitsHandler,
+  setLocalMemory,
+}) {
+  let iconUrl =
+    "http://openweathermap.org/img/w/" +
+    (props.iconCode ? props.iconCode : null) +
+    ".png";
   return (
-    <div id='current-info'
+    <div
+      id="current-info"
       className={
         (props.data.main && props.metric && props.data.main.temp > 0) ||
         (props.data.main && !props.metric && props.data.main.temp > 32)
