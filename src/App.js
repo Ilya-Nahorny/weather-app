@@ -93,8 +93,3 @@ function App() {
 
 export default App;
 
-/* const actUrl = `https://api.openweathermap.org/data/2.5/weather?${
-  inputCityName !== ""
-    ? "q=" + inputCityName
-    : "lat=" + latitude + "&lon=" + longitude
-}${metric ? "&units=metric" : "&units=imperial"}&appid=${apiKey}`; */

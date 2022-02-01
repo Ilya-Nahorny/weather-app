@@ -8,7 +8,7 @@
   .clearStorageBtn{
     background-color: rgba(255, 255, 255, 0.2);
     border-radius: 10px;
-    box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.3);
+    box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.3);  
     padding: 20px 40px;
     position: absolute;
     left: 0;
@@ -16,6 +16,10 @@
     width: 150px;
     height: 40px;
     display: none;
+    &:hover{
+      box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0.2);
+        background-color: black;
+      }
   }  
   .clearStorageBtn-active{
     background-color: rgba(255, 255, 255, 0.2);
@@ -30,9 +34,12 @@
     display: block;
     color: black;
     font-size: 15px;
-  font-family: "Montserrat-bold", sans-serif;
-
+    font-family: "Montserrat-bold", sans-serif;
     cursor: pointer;
+    &:hover{
+    box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0.2);
+      background-color: black;
+    }
   }
   .visiteCard{
     position: relative;
